@@ -1,0 +1,44 @@
+{
+  "name": "611-event-system-admin",
+  "private": true,
+  "homepage": "/admin",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dev:local": "env-cmd -f .env.local vite",
+    "dev:live": "env-cmd -f .env.live vite",
+    "build:live": "env-cmd -f .env.live vite build"
+  },
+  "devDependencies": {
+    "vite": "^8.0.1",
+    "env-cmd": "^10.1.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.9",
+    "@mui/material": "^7.3.9",
+    "@mui/styled-engine-sc": "^7.3.9",
+    "@mui/x-date-pickers": "^8.17.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/vite": "^4.2.2",
+    "@vitejs/plugin-react": "^6.0.1",
+    "axios": "^1.9.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.19",
+    "html-to-image": "^1.11.13",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.2",
+    "redux": "^5.0.1",
+    "redux-persist": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "styled-components": "^6.3.12",
+    "tailwindcss": "^4.2.2"
+  }
+}
